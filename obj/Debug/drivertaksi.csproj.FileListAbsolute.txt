@@ -1,0 +1,6 @@
+D:\SEMESTER 2\Pemrograman\driver\drivertaksi\drivertaksi\obj\Debug\drivertaksi.csproj.AssemblyReference.cache
+D:\SEMESTER 2\Pemrograman\driver\drivertaksi\drivertaksi\obj\Debug\drivertaksi.csproj.CoreCompileInputs.cache
+D:\SEMESTER 2\Pemrograman\driver\drivertaksi\drivertaksi\bin\Debug\drivertaksi.exe
+D:\SEMESTER 2\Pemrograman\driver\drivertaksi\drivertaksi\bin\Debug\drivertaksi.pdb
+D:\SEMESTER 2\Pemrograman\driver\drivertaksi\drivertaksi\obj\Debug\drivertaksi.exe
+D:\SEMESTER 2\Pemrograman\driver\drivertaksi\drivertaksi\obj\Debug\drivertaksi.pdb
