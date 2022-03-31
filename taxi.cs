@@ -2,30 +2,41 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
-namespace drivertaksi
+namespace Taxi_App
 {
-    public class taxi
+    internal class Taxi
     {
-        public string DriverTaksi { get; set; }
+        public string DriverName { get; set; }
         public bool OnDuty { get; set; }
-        public int NumPassenger { get; set; }
+        public int NumPassanger { get; set; }
 
         public void TaxiInfo()
         {
-            Console.WriteLine("Driver name: {0}", DriverTaksi);
-            Console.WriteLine("On duty: {0}", OnDuty);
-            Console.WriteLine("Number of passanger: {0}", NumPassenger);
+            Console.WriteLine($"Driver name = {DriverName}");
         }
+
         public void PickUpPassanger()
         {
-            Console.Write(DriverTaksi);
-            Console.WriteLine(" sedang menjemput penumpang");
+            if (OnDuty == true)
+            {
+                Console.WriteLine($"On Duty = Yes");
+                Console.WriteLine($"Number Of Pasanger = {NumPassanger}");
+            }
+            else
+            {
+                Console.WriteLine($"On Duty = No");
+                Console.WriteLine($"{DriverName} tidak sedang menjamput penumpang");
+            }
         }
+
         public void DropOffPassanger()
         {
-            Console.Write(DriverTaksi);
-            Console.WriteLine(" selesai mengantar penumpang");
+            if (NumPassanger != 0)
+            {
+                Console.WriteLine($"{DriverName} sedang mengantar penumpang");
+            }
         }
 
     }
